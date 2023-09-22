@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Aritmatika</title>
+    <h3>Nama : Kadek Ganeis Jayarani Sapanca</h3>
+    <h4>NIM : 2215101026</h4>
+    <h5>Kelas : A</h5>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Kalkulator Aritmatika</h1>
+
+    <div id="fibonacci">
+        <h2>Hitung Deret Fibonacci</h2>
+        <label for="fibonacciInput">Masukkan n:</label>
+        <input type="number" id="fibonacciInput">
+        <button onclick="hitungFibonacci()">Hitung</button>
+        <p id="hasilFibonacci"></p>
+    </div>
+
+    <div id="kubus">
+        <h2>Hitung Volume Kubus</h2>
+        <label for="sisiKubusInput">Masukkan panjang sisi:</label>
+        <input type="number" id="sisiKubusInput">
+        <button onclick="hitungVolumeKubus()">Hitung</button>
+        <p id="hasilKubus"></p>
+    </div>
+
+    <div id="balok">
+        <h2>Hitung Volume Balok</h2>
+        <label for="panjangBalokInput">Panjang:</label>
+        <input type="number" id="panjangBalokInput">
+        <label for="lebarBalokInput">Lebar:</label>
+        <input type="number" id="lebarBalokInput">
+        <label for="tinggiBalokInput">Tinggi:</label>
+        <input type="number" id="tinggiBalokInput">
+        <button onclick="hitungVolumeBalok()">Hitung</button>
+        <p id="hasilBalok"></p>
+    </div>
+
+    <div id="bola">
+        <h2>Hitung Volume Bola</h2>
+        <label for="jariJariBolaInput">Jari-Jari:</label>
+        <input type="number" id="jariJariBolaInput">
+        <button onclick="hitungVolumeBola()">Hitung</button>
+        <p id="hasilBola"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
